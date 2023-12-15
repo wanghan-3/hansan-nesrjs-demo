@@ -1,0 +1,9 @@
+.login-container .content {
+  width: 400px;
+}
+.login-container .content .email-input input {
+  padding-right: 112px;
+}
+.login-container .content .email-input .ant-input-suffix {
+  right: 0;
+}
