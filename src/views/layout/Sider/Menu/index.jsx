@@ -107,7 +107,8 @@ class Meun extends Component {
     this.setState({
       menuTreeNode,
     });
-    this.handleMenuSelect(this.state.openKey);
+    // 获取当前路由并执行后续步骤
+    this.handleMenuSelect({key:this.props.location.pathname});
   }
   render() {
     const path = this.props.location.pathname;
